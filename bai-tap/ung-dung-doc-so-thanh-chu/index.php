@@ -20,19 +20,82 @@
 <body>
 <h2>chuyển đổi số thành chữ tiếng </h2>
 <form method="get">
-    <input type="number" name="number" placeholder="Nhập một số"/>
+    <input type="number" name="numInput" placeholder="Nhập một số < 1000"/>
     <input type = "submit" id = "submit" value = "Chuyển"/>
 </form>
 </body>
 </html>
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "G") {
-    $username = $_GET["number"];
-    $password = $_GET["submit"];
-
-    if ($username === "admin" && $password === "admin") {
-        echo "<h2>Welcome <span style='color:red'>" .$username. "</span> to website</h2>";
-    } else{
-        echo "<h2><span style='color:red'>Login Error</span></h2>";
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+    $number = $_GET["numInput"];
+    $result ="";
+    if ($number < 10 || $number >= 0) {
+        switch ($number) {
+            case 0:
+                $result = 'zero';
+                break;
+            case 1:
+                $result = 'one';
+                break;
+            case 2:
+                $result = 'two';
+                break;
+            case 3:
+                $result = 'three';
+                break;
+            case 4:
+                $result = 'four';
+                break;
+            case 5:
+                $result = 'five';
+                break;
+            case 6:
+                $result = 'six';
+                break;
+            case 7:
+                $result = 'seven';
+                break;
+            case 8:
+                $result = 'eight';
+                break;
+            case 9:
+                $result = 'nine';
+                break;
+        }
+    } elseif ($number >= 10 || $number < 20) {
+        switch ($number) {
+            case 10:
+                $result = 'ten';
+                break;
+            case 11:
+                $result = 'eleven';
+                break;
+            case 12:
+                $result = 'twelve';
+                break;
+            case 13:
+                $result = 'thirteen';
+                break;
+            case 15:
+                $result = 'fifteen';
+                break;
+            case 14:
+                $result = 'fourteen';
+                break;
+            case 16:
+                $result = 'six';
+                break;
+            case 17:
+            case 18:
+            case 19:
+                $result = '';
+                break;
+        }
+    } else {
+        $result = 'out of ability';
     }
+    echo $number . ' : ' . $result;
 }
+?>
+
+

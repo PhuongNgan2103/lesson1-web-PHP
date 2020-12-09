@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9810ab23-f8b8-43b3-8df7-2015e6d95e17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bai-tap/ung-dung-Future-Value-calculator/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai-tap/ung-dung-Product-Discount-Calculator/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai-tap/ung-dung-calculator/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bai-tap/ung-dung-doc-so-thanh-chu/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/bai-tap/ung-dung-doc-so-thanh-chu/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson2-Array-and-function" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,7 +55,15 @@
       <option name="presentableId" value="Default" />
       <updated>1607311642264</updated>
       <workItem from="1607311643325" duration="8345000" />
-      <workItem from="1607356925384" duration="299000" />
+      <workItem from="1607356925384" duration="821000" />
+      <workItem from="1607388409236" duration="42000" />
+      <workItem from="1607390532003" duration="20000" />
+      <workItem from="1607394512408" duration="1346000" />
+      <workItem from="1607437424596" duration="135000" />
+      <workItem from="1607485932755" duration="5861000" />
+      <workItem from="1607497392928" duration="13000" />
+      <workItem from="1607498374315" duration="103000" />
+      <workItem from="1607498506093" duration="4899000" />
     </task>
     <servers />
   </component>
